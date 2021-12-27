@@ -1,0 +1,329 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px)
+and (-webkit-min-device-pixel-ratio: 2) {
+	body{
+		width: 320px
+	}
+
+	.container {
+  		width: 280px;
+  		margin: 0 auto;
+	}
+
+	.screen-head {
+		font-size: 14px;
+	}
+
+	.welcome-screen h1 {
+		font-size: 17px;
+	}
+
+	.welcome-screen h3 {
+		font-size: 12px;
+
+	}
+
+	.welcome-screen {
+		margin-bottom: 116px;
+		margin-top: 42px
+	}
+
+	.icon-1 img {
+	height: 47px;
+	width: 47px;
+	margin-bottom: 14px;
+	}
+
+	.icon-2 img {
+	height: 47px;
+	width: 47px;
+	margin-bottom: 14px; 
+	}
+
+	.icon-3 img {
+	height: 47px;
+	width: 47px;
+	margin-bottom: 14px;
+	}
+
+	.icon-4 img {
+	height: 48px;
+	width: 48px;
+	margin-bottom: 14px;
+	}
+
+	.icons-container {
+		flex-wrap: wrap;
+
+	}
+
+	.icon-1, .icon-2, .icon-3, .icon-4 {
+		margin-bottom: 35px;
+		width: 130px
+
+	}
+
+	.sets-screen h1 {
+		font-size: 14px;
+		width: 90px;
+	}
+
+	.sets-screen h2 {
+		margin-bottom: 15px
+	}
+
+	.woocommerce-Price-amount {
+		font-size: 14px;
+	}
+
+	.iv-btn {
+		font-size: 11px;
+		padding: 12px 8px;
+		border-radius: 8px;
+	}
+
+	.set-1 .entry-summary {
+		flex-direction: row;
+	}
+
+	.set-1 .vertical-summary--info {
+		margin-left: -15px
+	}
+
+	.set-1 .woocommerce-Price-amount {
+		margin-right: 25px
+	}
+
+	.set-1 .summary_below-section {
+ 		width: 140px;
+  		height: 270px;
+	}
+
+	.set-1 .vertical-summary--image {
+		width: 206px;
+		padding-top: 10px
+	}
+
+	.set-1 .summary_above-section {
+  		width: 140px;
+  		height: 270px;
+
+	}
+
+	.set-1 {
+		margin-bottom: 25px
+	}
+
+	.sets-top-container {
+		flex-direction: column;
+	}
+
+	.set-2, .set-3 {
+		display: none;
+	}
+
+	/*.set-2 .entry-summary {
+		display: block;
+		position: relative;
+	}
+
+		.set-2 .summary_below-section {
+ 		width: 140px;
+  		height: 270px;
+	}
+
+
+	.set-2 .summary_above-section {
+  		width: 140px;
+  		height: 270px;
+  		position: absolute;
+  		top: 0;
+  		left: 140px;
+  		z-index: -9999;
+	}
+
+	.set-2 .summary-container-1 {
+		margin-left: -15px
+	}
+
+	.set-2 img {
+		position: absolute;
+		top: 160px;
+		left: -40px;
+		padding-top: 0;
+		z-index: 99999;
+	}
+
+	.set-3 .entry-summary {
+		flex-direction: row;
+	}
+
+	.set-3 .summary_below-section {
+ 		width: 140px;
+  		height: 270px;
+	}
+
+
+	.set-3 .summary_above-section {
+  		width: 140px;
+  		height: 270px;
+
+	}*/
+
+
+
+	.tags-menu, .recomend-screen{
+		display: none;
+	}
+
+	.tags-screen {
+		margin-bottom: 46px
+	}
+
+	.tags-screen h2 {
+		margin-bottom: 15px
+	}
+
+	.iv-btn--tag {
+		padding: 8px
+	}
+
+	.iv-btn--tag a {
+		font-size: 11px;
+	}
+
+	.tags-block {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+
+	.tags-block .iv-btn--tag {
+		margin-bottom: 8px;
+	}
+
+	.tags-block div {
+		padding: 8px 10px;
+		border-radius: 8px;
+	}
+
+	.about-screen .summary_below-section h2 {
+		font-size: 14px;
+		margin-bottom: 12px;
+	}
+
+	.about-screen h2 {
+		margin-bottom: 15px
+	}
+
+	.about-screen .summary_below-section p {
+		font-size: 11px;
+	} 
+
+	.about-screen .summary_below-section {
+		width: 280px;
+		height: 280px;
+		padding-left: 18px;
+		padding-top: 20px
+	}
+
+	.about-text-container {
+		width: 280px
+	}
+
+
+.about-screen .iv-btn {
+	display: none;
+}
+
+	.about-screen .summary_above-section {
+		width: 280px;
+		height: 280px;
+		padding-left: 18px;
+	}
+
+	.about-image-block{
+		width: 240px;
+		height: 240px;
+		display: block;
+	}
+
+	.about-photo{
+		display: none;
+	}
+
+	.about-screen .entry-summary {
+		flex-direction: column-reverse;
+	}
+
+	.partners-table-container {
+		flex-direction: column;
+	}
+
+	.partners-table-container h2 {
+		font-size: 14px;
+	}
+
+	.partners-table-container p {
+		font-size: 11px;
+	}
+
+	.partners-content-text {
+		margin: 15px 0;
+	}
+
+	.partners-cell-container {
+		width: 100%;
+		margin-bottom: 50px
+	}
+
+	.partners-logo {
+		width: 108px;
+		height: 33px;
+	}
+
+	.partners-screen {
+	margin-bottom: 55px
+	}
+
+	.contact-screen h2 {
+		margin-bottom: 22px
+	}
+
+	.contact-screen h1 {
+		font-size: 17px;
+		margin-top: 0
+	}
+
+	.contact-line {
+		width: 218px;
+		margin-bottom: 20px	
+	}
+
+	.contact-screen p {
+		font-size: 10px;
+		padding: 20px
+	}
+
+	.contact-screen-container {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.contact-info-container p {
+  padding: 10px;
+}
+
+.contact-icon {
+  width: 34px;
+  height: 34px;
+}
+
+
+
+
+
+}

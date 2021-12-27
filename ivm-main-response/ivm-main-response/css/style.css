@@ -1,0 +1,559 @@
+span {
+	color: #999999;
+}
+
+body {
+	background-color: #f6f6f6;
+}
+
+.screen-head {
+	font-family: "manrope-bold";
+	color: #313131;
+}
+
+/* Первый экран */
+
+.welcome-screen {
+	text-align: center;
+	margin-bottom: 78px;
+}
+
+.welcome-screen h1 {
+	font-size: 2.99em;
+	margin-top: 70px;
+}
+
+.icon-1 img {
+	height: 64px;
+	width: 64px;
+	margin-bottom: 28px;
+}
+
+.icon-2 img {
+	height: 64px;
+	width: 64px;
+	margin-bottom: 28px;  
+}
+
+.icon-3 img {
+	height: 64px;
+	width: 64px;
+	margin-bottom: 28px;
+}
+
+.icon-4 img {
+	height: 64px;
+	width: 64px;
+	margin-bottom: 28px;
+}
+
+.icon-1, .icon-2, .icon-3, .icon-4 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.icons-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 52px;
+}
+
+.welcome-heading {
+	font-weight: normal;
+}
+
+/* Первый экран */
+
+
+
+/* Второй экран */
+
+.sets-screen h2 {
+  margin-bottom: 36px;
+}
+
+.sets-screen h1 {
+  font-size: 23px;
+  font-weight: normal;
+}
+.set-1 .entry-summary {
+  display: flex;
+  flex-direction: row;
+}
+
+.set-1 .summary_below-section {
+  width: 200px;
+  height: 380px;
+}
+
+.set-1 .summary_above-section {
+  width: 200px;
+  height: 380px;
+}
+
+.set-2 .summary_below-section {
+  width: 510px;
+  height: 190px;
+}
+
+.set-2 .summary_above-section {
+  width: 510px;
+  height: 190px;
+}
+
+.set-3 .summary_below-section {
+  width: 956px;
+  height: 215px;
+}
+
+.set-3 .summary_above-section {
+  width: 956px;
+  height: 215px;
+}
+
+.set-3 .summary_above-section img {
+  margin-bottom: 40px;
+}
+
+.sets-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.sets-bottom-container {
+  margin-bottom: 96px;
+}
+
+.sets-screen .sets-btn-container {
+  margin-top: 18px;
+  display: flex;
+}
+
+.sets-screen .sets-btn-container .iv-btn {
+  margin-right: 11px;
+}
+
+.sets-screen .summary-container-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.sets-screen .summary-container-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.sets-screen .summary-left-block-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sets-screen .summary-left-block-text h1 {
+  margin-right: 64px;
+}
+
+.sets-screen .summary_above-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sets-screen .summary_above-section img {
+  max-width: 95%;
+  padding-bottom: 60px;
+}
+
+.vertical-summary {
+  position: relative;
+}
+.vertical-summary--info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vertical-summary-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: none;
+  padding: 40px;
+  background: none !important;
+}
+
+.vertical-summary--image {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.vertical-summary--image img {
+  width: 90%;
+}
+
+/* Второй экран */
+
+
+
+/* Третий экран */
+
+.tags-screen h2 {
+	margin-bottom: 36px;
+}
+
+.tags-screen {
+	margin-bottom: 96px;
+}
+
+.tags-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.tags-block div {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* Третий экран */
+
+
+
+/* Четертый экран */
+
+
+.recomend-screen {
+  margin-bottom: 36px;
+}
+
+.recomend-screen h2 {
+  margin-bottom: -14px;
+}
+
+.recomend-card {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.recomend-card .summary {
+  margin: 0 20px;
+}
+
+.recomend-card .summary_below-section {
+  height: 164px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.recomend-card .summary_above-section {
+  height: 164px;
+  padding-bottom: 24px;
+  padding-top: 20px;
+}
+
+.recomend-card .summary_below-section img {
+  height: 140px;
+  width: auto;
+}
+
+.recomend-bottom-container {
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recomend-slider {
+  position: relative;
+  height: 500px;
+}
+
+.recomend-slider-container {
+  margin: 0 -18px;
+}
+
+.recomend-slider .slick-arrow {
+  position: absolute;
+  font-size: 0;
+  width: 34px;
+  height: 34px;
+  top: 420px;
+  z-index: 9999;
+}
+
+.recomend-slider .slick-dots li {
+  margin: 0 0px;
+}
+
+.recomend-slider .slick-arrow.slick-prev {
+  background-image: url(../img/recomend-screen/prev.svg);
+  left: 20px;
+}
+
+.recomend-slider .slick-arrow.slick-next {
+  background-image: url(../img/recomend-screen/next.svg);
+  right: 20px;
+}
+
+.recomend-slider .slick-next:before {
+  display: none;
+}
+
+.recomend-slider .slick-prev:before {
+  display: none;
+}
+
+.recomend-slider .slick-dots li button:before {
+  font-family: "slick";
+  font-size: 10px;
+  line-height: 20px;
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  color: #bdb4ea;
+}
+
+.summary_above-section p {
+  height: 75px;
+}
+
+.summary_above-section p:hover {
+  color: var(--hoverColor);
+}
+
+/* Четертый экран */ 
+
+
+/* Пятый экран */ 
+
+.about-screen {
+  margin-bottom: 96px;
+}
+
+.about-screen h2 {
+  margin-bottom: 36px;
+}
+
+.about-screen .entry-summary {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-screen .summary_below-section {
+  width: 480px;
+  height: 440px;
+  padding-top: 45px;
+  z-index: 99;
+}
+
+.about-screen .summary_above-section {
+  width: 480px;
+  height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px 50px 50px;
+}
+
+.about-screen .summary_below-section h2 {
+  font-weight: normal;
+  margin-bottom: 30px;
+  font-size: 23px;
+  white-space: nowrap;
+}
+
+.about-screen .summary_below-section span {
+  color: #5930bf !important;
+}
+
+.about-screen .summary_below-section p {
+  color: #7d7c7c;
+  margin-bottom: 25px;
+}
+
+.about-image-block {
+  margin-top: 0;
+  position: relative;
+}
+
+.about-photo {
+  height: 343px;
+  width: 343px;
+  padding-left: 21px;
+  padding-top: 291px;
+  position: relative;
+  z-index: 2;
+}
+
+.about-image-block > img {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+.about-screen .iv-btn {
+  display: inline-block;
+}
+
+/* Пятый экран */ 
+
+
+/* Шестой экран */ 
+
+
+.partners-screen h2 {
+  margin-bottom: 30px;
+}
+
+.partners-screen {
+  margin-bottom: 96px;
+}
+
+.partners-table-container {
+  margin-top: 30px;
+}
+
+.partners-content-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  position: relative;
+}
+
+.partners-logo {
+  width: 171px;
+  height: 53px;
+  display: none;
+  margin-bottom: 10px;
+  position: absolute;
+  right: 0;
+}
+
+.partners-content-container:hover .partners-logo {
+  display: block;
+}
+
+.partners-headings {
+  font-weight: normal !important;
+  margin-bottom: 10px !important;
+}
+
+.partners-headings:hover .partners-logo {
+  display: block;
+}
+
+.partners-cell-container {
+  margin-bottom: 15px;
+  height: auto;
+  width: 47%;
+}
+
+.partners-table-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.partners-rcolumn-container {
+  margin-left: 48px;
+}
+
+.partners-screen .iv-btn {
+  background-color: #fff;
+  margin-top: -10px;
+}
+.partners-content-text {
+  margin: 30px 0;
+}
+
+
+/* Шестой экран */ 
+
+
+
+
+/* Седьмой экран */ 
+
+.contact-screen {
+	margin-bottom: 40px;
+}
+
+.contact-screen h2 {
+	margin-bottom: 36px;
+}
+
+.contact-screen h1 {
+	margin-top: 18px;
+	margin-bottom: 64px;
+	width: 422px;
+	font-size: 3em;
+	margin-bottom: 8px;
+
+}
+
+.contact-line {
+	height: 2px;
+	width: 500px;
+	background-color: #5930bf;
+	margin-bottom: 64px;
+}
+
+.contact-screen p { 
+	padding: 30px;
+  color: #8C8C8C;
+}
+
+.contact-screen .summary_below-section {
+	padding: 0;
+}
+
+.contact-icon {
+  width: 44px;
+  height: 44px;
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-screen-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.contact-screen-left {
+  margin-right: 80px;
+}
+
+.contact-info-container p {
+  padding: 20px;
+}
+
+
+
+
+
+
+
+/* Седьмой экран */ 
+
+
+
